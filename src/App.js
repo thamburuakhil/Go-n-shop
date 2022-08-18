@@ -131,7 +131,7 @@ function App() {
                      );
                   } else if (obj.statusRetrieve && !obj.statusDone) {
                      return (
-                        <div key={obj.id} className="toDo">
+                        <div key={obj.id} className="toUse">
                            <div className="left tick">
                               <i onClick={(e) => {
                                  e.target.value = true;
